@@ -12,10 +12,13 @@ The analysis is based on two datasets:
   - `observations`: Number of recorded observations in the last week.  
 
 - **`species_info.csv`**  
-  - `category`: Taxonomic category of the species (e.g., Mammal, Bird, Plant).  
+  - `category`: Taxonomic category of the species (e.g., Mammal, Bird).  
   - `scientific_name`: Scientific name of the species.  
   - `common_name`: Common name of the species.  
   - `conservation_status`: Status of the species (e.g., Species of Concern, Endangered).  
+
+Both **observations.csv** and **species_info.csv** were provided by [Codecademy.com](https://www.codecademy.com).
+Note: The data for this project is inspired by real data, but is **mostly fictional**.
 
 ## 📊 Goals of the Analysis  
 1. **Summarize Observations by Park** – Identify which parks have the highest and lowest wildlife activity.  
@@ -28,11 +31,9 @@ The analysis is based on two datasets:
 - **Data Cleaning & Exploration**: Handling missing values, duplicates, and merging datasets for comprehensive analysis.  
 - **Statistical Tests**:  
   - **Chi-Squared Test** to examine the relationship between species category and endangerment risk.  
-  - **Proportion Test** to compare observation frequencies of endangered vs. non-endangered species.  
 - **Data Visualization**:  
   - Bar charts to illustrate species distribution.  
   - Heatmaps to highlight taxonomic categories most at risk.  
-  - Boxplots and histograms for observation trends.  
 
 ## 🔍 Key Findings  
 - **Yellowstone National Park** has the highest wildlife activity, while **Great Smoky Mountains National Park** has the lowest.  
