@@ -18,6 +18,7 @@ The analysis is based on two datasets:
   - `conservation_status`: Status of the species (e.g., Species of Concern, Endangered).  
 
 Both **observations.csv** and **species_info.csv** were provided by [Codecademy.com](https://www.codecademy.com).
+
 Note: The data for this project is inspired by real data, but is **mostly fictional**.
 
 ## 📊 Goals of the Analysis  
